@@ -1,3 +1,8 @@
-from django.shortcuts import render
+from rest_framework import generics
+from .models import Mensaje
+from .serializers import MensajeSerializer
 
-# Create your views here.
+
+class ContactoCreateView(generics.CreateAPIView):
+    queryset = Mensaje.objects.all()
+    serializer_class = MensajeSerializer
