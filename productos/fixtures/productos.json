@@ -1,0 +1,174 @@
+[
+{
+  "model": "productos.categoria",
+  "pk": 1,
+  "fields": {
+    "nombre": "Guitarras eléctricas"
+  }
+},
+{
+  "model": "productos.categoria",
+  "pk": 2,
+  "fields": {
+    "nombre": "Guitarras acústicas"
+  }
+},
+{
+  "model": "productos.categoria",
+  "pk": 3,
+  "fields": {
+    "nombre": "Bajos eléctricos"
+  }
+},
+{
+  "model": "productos.categoria",
+  "pk": 4,
+  "fields": {
+    "nombre": "Baterías y percusión"
+  }
+},
+{
+  "model": "productos.categoria",
+  "pk": 5,
+  "fields": {
+    "nombre": "Teclados y pianos"
+  }
+},
+{
+  "model": "productos.categoria",
+  "pk": 6,
+  "fields": {
+    "nombre": "Audio y grabación"
+  }
+},
+{
+  "model": "productos.producto",
+  "pk": 1,
+  "fields": {
+    "nombre": "Fender Stratocaster American Professional II",
+    "descripcion": "Guitarra eléctrica de cuerpo sólido, ideal para rock y blues.",
+    "imagen": "https://placehold.co/600x400?text=Fender+Stratocaster",
+    "marca": "Fender",
+    "precio": "289999.00",
+    "stock": 5,
+    "categoria": 1
+  }
+},
+{
+  "model": "productos.producto",
+  "pk": 2,
+  "fields": {
+    "nombre": "Gibson Les Paul Standard 60s",
+    "descripcion": "Guitarras eléctricas es una recreación fiel de la emblemática guitarra eléctrica de principios de los años 60, diseñada para ofrecer la estética y el sonido de esa década con componentes modernos.",
+    "imagen": "https://placehold.co/600x400?text=Gibson+Les+Paul+Standard+60s",
+    "marca": "Gibson",
+    "precio": "415000.00",
+    "stock": 3,
+    "categoria": 1
+  }
+},
+{
+  "model": "productos.producto",
+  "pk": 3,
+  "fields": {
+    "nombre": "Fender Jazz Bass American Professional II",
+    "descripcion": "bajo eléctrico de gama alta fabricado en EE. UU., diseñado como una evolución moderna del clásico Jazz Bass.",
+    "imagen": "https://placehold.co/600x400?text=Fender+Jazz+Bass+American+Professional+II",
+    "marca": "Fender",
+    "precio": "245000.00",
+    "stock": 4,
+    "categoria": 3
+  }
+},
+{
+  "model": "productos.producto",
+  "pk": 4,
+  "fields": {
+    "nombre": "Gibson SG Standard Heritage Cherry",
+    "descripcion": "es una icónica guitarra eléctrica de cuerpo sólido fabricada en EE. UU. (Nashville), reconocida por su diseño liviano de doble corte afilado y su clásico acabado en laca de nitrocelulosa color rojo cereza.",
+    "imagen": "https://placehold.co/600x400?text=Gibson+SG+Standard+Heritage+Cherry",
+    "marca": "Gibson",
+    "precio": "380000.00",
+    "stock": 2,
+    "categoria": 1
+  }
+},
+{
+  "model": "productos.producto",
+  "pk": 5,
+  "fields": {
+    "nombre": "Epiphone Les Paul Custom",
+    "descripcion": "guitarra eléctrica de cuerpo sólido que rinde homenaje al emblemático modelo de lujo lanzado por Gibson en 1954",
+    "imagen": "https://placehold.co/600x400?text=Epiphone+Les+Paul+Custom",
+    "marca": "Epiphone",
+    "precio": "135000.00",
+    "stock": 6,
+    "categoria": 1
+  }
+},
+{
+  "model": "productos.producto",
+  "pk": 6,
+  "fields": {
+    "nombre": "Ibanez RG421EX",
+    "descripcion": "guitarra eléctrica de cuerpo sólido de la serie Standard de Ibanez, pensada para géneros como el rock y el metal",
+    "imagen": "https://placehold.co/600x400?text=Ibanez+RG421EX",
+    "marca": "Ibanez",
+    "precio": "95000.00",
+    "stock": 5,
+    "categoria": 1
+  }
+},
+{
+  "model": "productos.producto",
+  "pk": 7,
+  "fields": {
+    "nombre": "Fender CD-60S Dreadnought",
+    "descripcion": "es una guitarra acústica de cuerdas de acero, muy popular para principiantes y músicos intermedios por su excelente relación calidad-precio y comodidad.",
+    "imagen": "https://placehold.co/600x400?text=Fender+CD-60S+Dreadnought",
+    "marca": "Fender",
+    "precio": "65000.00",
+    "stock": 8,
+    "categoria": 2
+  }
+},
+{
+  "model": "productos.producto",
+  "pk": 8,
+  "fields": {
+    "nombre": "Yamaha C40 Guitarra Clásica",
+    "descripcion": "es una guitarra clásica de tamaño completo (4/4) con cuerdas de nailon,",
+    "imagen": "https://placehold.co/600x400?text=Yamaha+C40+Guitarra+Clasica",
+    "marca": "Yamaha",
+    "precio": "38000.00",
+    "stock": 12,
+    "categoria": 2
+  }
+},
+{
+  "model": "productos.producto",
+  "pk": 9,
+  "fields": {
+    "nombre": "Taylor 114ce Acoustic-Electric",
+    "descripcion": "es una guitarra electroacústica versátil y equilibrada perteneciente a la serie 100 de Taylor Guitars.",
+    "imagen": "https://placehold.co/600x400?text=Taylor+114ce+Acoustic-Electric",
+    "marca": "Taylor",
+    "precio": "210000.00",
+    "stock": 3,
+    "categoria": 2
+  }
+},
+{
+  "model": "productos.producto",
+  "pk": 10,
+  "fields": {
+    "nombre": "Yamaha TRBX174 Black",
+    "descripcion": "es un bajo eléctrico de 4 cuerdas, pasivo y de gran relación calidad-precio, ideal para principiantes y músicos que buscan un instrumento confiable",
+    "imagen": "https://placehold.co/600x400?text=Yamaha+TRBX174+Black",
+    "marca": "Yamaha",
+    "precio": "78000.00",
+    "stock": 7,
+    "categoria": 3
+  }
+}
+]
