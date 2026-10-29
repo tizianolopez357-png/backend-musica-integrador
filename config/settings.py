@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'productos',
     'carrito',
     'pedidos',
-]
+    'contacto',
+    ]
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
