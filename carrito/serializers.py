@@ -18,8 +18,17 @@ class ItemCarritoSerializer(serializers.ModelSerializer):
         return obj.cantidad * obj.producto.precio
 
     def validate(self, data):
-        producto = data.get('producto') or self.instance.producto
-        cantidad = data.get('cantidad', self.instance.cantidad if self.instance else 1)
+        producto = data.get('producto')
+        if self.instance:
+            producto = producto or self.instance.producto
+            cantidad = data.get('cantidad', self.instance.cantidad)
+        else:
+            cantidad = data.get('cantidad', 1)
+
+        if producto is None:
+            raise serializers.ValidationError({'producto': 'Este campo es obligatorio.'})
+        if cantidad < 1:
+            raise serializers.ValidationError({'cantidad': 'La cantidad debe ser al menos 1.'})
         if cantidad > producto.stock:
             raise serializers.ValidationError(
                 {'cantidad': f'Solo hay {producto.stock} unidades disponibles.'}
